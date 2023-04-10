@@ -1,0 +1,53 @@
+ body {
+    width: 100%;
+  }
+  
+  .container {
+    background-image: radial-gradient(circle, red 0%, #1f1010 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+ 
+  .clock {
+    align-items: center;
+    background-color: rgba(255, 6, 6, 0.5);
+    border: 1px solid #050505;
+    border-radius: 3%;
+    color: #fff;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+  }
+body{
+    background-color: black;
+}
+
+.tudo{
+  width: 100vh;
+  border: 1px solid white;
+}
+
+.bodyconteudo{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.contador{
+  
+  display: flex;
+  justify-content: space-around;
+  gap: 10px 10px;
+}
+.reloj{
+  font-size: 25px;
+}
+
+.botoes{
+  margin-left: 70px;
+}
